@@ -1,0 +1,33 @@
+// package.json
+{
+  "name": "readme-stats-pro",
+  "version": "1.0.0",
+  "description": "Professional GitHub stats SVG generator (Project: readme-stats-pro by sajjadeakbari), deployable on Render.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "github",
+    "stats",
+    "svg",
+    "readme",
+    "render",
+    "pro",
+    "sajjadeakbari"
+  ],
+  "author": "sajjadeakbari",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sajjadeakbari/readme-stats-pro.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sajjadeakbari/readme-stats-pro/issues"
+  },
+  "homepage": "https://github.com/sajjadeakbari/readme-stats-pro#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
