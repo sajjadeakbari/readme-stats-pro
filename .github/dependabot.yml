@@ -1,0 +1,11 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"  # محل package.json
+    schedule:
+      interval: "weekly"  # بررسی هفتگی برای نسخه جدید پکیج‌ها
+    commit-message:
+      prefix: "chore(deps)"
+    labels:
+      - "dependencies"
+    open-pull-requests-limit: 5
